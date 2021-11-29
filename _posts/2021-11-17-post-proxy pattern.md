@@ -7,9 +7,10 @@ tags:
 ---
 
 
-**프록시 패턴(Proxy Pattern) ?**
+**프록시 패턴(Proxy Pattern) 이란**
   > 어떤 객체에 대한 접근을 제어하기 위해 대리인이나 대변인에 해당하는 객체를 제공하는 패턴
-
+  > 프록시 패턴을 적용함으로써 객체 생성 및 수행에 대한 흐름을 제어할 수 있게 된다. 실제 객체를 수행하기 전에 전처리를 하거나 기본 객체를 캐싱할 수 있다.
+  > 예를 들어 방대한 양의 이미지나 동영상을 로딩할 때 로딩이 완료된 이미지 또는 동영상을 우선적으로 보여줄 수 있다면 사용자 편의성을 극대화 할 수 있다.
 
 **프록시 패턴의 클래스 다이어그램**<br>
 ![icon](/assets/image/proxy_pattern.png)
@@ -145,4 +146,4 @@ Node1 인스턴스를 생성하는지, Node2 인스턴스를 생성하는지 여
 출처<br>
    [https://nowonbun.tistory.com/449](https://nowonbun.tistory.com/449)<br>
    [https://coding-factory.tistory.com/711](https://coding-factory.tistory.com/711)<br>
-   [https://developside.tistory.com/80](https://developside.tistory.com/80)
+   [https://developside.tistory.com/80](https://developside.tistory.com/80)<br>
