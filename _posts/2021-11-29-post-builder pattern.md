@@ -104,9 +104,10 @@ public class BuilderPattern {
 
 
 <h5>4. 빌더 패턴은 왜 사용할까?</h5>
-**빌더 패턴을 이해하고 나에게 와닿은 장점은 클린코드이다.**
-![icon](/assets/image/Builder_pattern_ex.png)<br>
-출처:[https://okky.kr/article/396206](https://okky.kr/article/396206)<br>
+**빌더 패턴을 이해하고 나에게 와닿은 장점은 클린코드이다.**<br>
+![icon](/assets/image/Builder_pattern_ex.png)
+
+<br>출처:[https://okky.kr/article/396206](https://okky.kr/article/396206)<br>
 
 
 ---
