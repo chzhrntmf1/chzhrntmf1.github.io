@@ -105,10 +105,17 @@ public class Main {
 
 
 
+
+일단 'Animal'이라는 인터페이스가 있습니다.  
+Cat, Dog 는 이 인터페이스의 구현체들입니다.  
+그리고 'AnimalGroup'에서 'Animal'의 구현체를 가지며, 관리하기 위한 메소드(add, speak...)를 구현한다.  
+
+
+
 #### 출처  
    [https://mygumi.tistory.com/343](https://mygumi.tistory.com/343)  
    [https://ko.wikipedia.org/wiki/컴포지트_패턴](https://ko.wikipedia.org/wiki/컴포지트_패턴)  
-
+   [https://www.youtube.com/watch?v=XXvrHAsfTso](https://www.youtube.com/watch?v=XXvrHAsfTso)  
 
 
 <!--
