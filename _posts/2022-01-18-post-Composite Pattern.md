@@ -24,10 +24,7 @@ tags:
 
 **Composite**  
  - "Component"  인터페이스를 구현하고, 구현되는 자식(Leaf or Composite) 들을 가지고, 이러한 자식들을 관리하기 위한 메소드(addChild, removeChild...)를 구현한다.  
-   또한, 일반적으로 인터페이스에 작성된 메소드는 자식에게 위임하는 처리를 한다.
-
-
-
+   또한, 일반적으로 인터페이스에 작성된 메소드는 자식에게 위임한다.
 
 
 ## Composite Pattern Ex
@@ -102,15 +99,27 @@ public class Main {
 ```
 ![image](\assets\image\composite_pattern_result.png)
 
+위 예제를 통해 Animal 인터페이스와 해당 인터페이스를 상속받는 객체(cat, dog ...)가 있을 때,  
+AnimalGroup 에서 Animal 객체를 가지며 객체를 관리할 수 있는 메서드(add, speak...)를 구현하는 것을 볼 수 있다.  
+**AnimalGroup 을 통해 다양한 Animal 객체를 일괄적으로 관리 가능하다는 것이 컴포지트 패턴의 특징으로 보이며,**     
+**Animal 객체와 그 객체들을 가지는 AnimalGroup 의 관계를 보면 객체들을 트리 구조로 구성하는 것을 볼 수 있다.**
+
+## 예제 소스 UML 및 트리구조
+
+### UML
+![image](\assets\image\composite_pattern_uml_1.png)
+
+### 트리구조
+![image](\assets\image\composite_pattern_tree.png)
 
 
 
 
-일단 'Animal'이라는 인터페이스가 있습니다.  
-Cat, Dog 는 이 인터페이스의 구현체들입니다.  
-그리고 'AnimalGroup'에서 'Animal'의 구현체를 가지며, 관리하기 위한 메소드(add, speak...)를 구현한다.  
 
-
+## 컴포지트 패턴 적용 사례
+   2008년, 스프링 기반 프로젝트에서 기능 추가 및 요구사항이 추가되더라도 메인코드에 영향을 주지 않기 위해 컴포지트 패턴을 적용한 사례가 있다.  
+   컴포지트 패턴에 대해 이해한 점이 실제 프로젝트에 어떻게 적용되었는지 참고해보자..  
+   [https://javacan.tistory.com/entry/137](https://javacan.tistory.com/entry/137)  
 
 #### 출처  
    [https://mygumi.tistory.com/343](https://mygumi.tistory.com/343)  
